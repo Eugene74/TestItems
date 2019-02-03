@@ -19,6 +19,7 @@ System.out.println("result is :"+function("6", "4", 0));
 ***********************************************
 public static int function(int a, int b, int action) throws Exception
 {
+*
 if (action == 0)
 return a+b;
 else if (action == 1)
@@ -29,6 +30,7 @@ else if (action == 3)
 return a/b;
 throw new Exception();
 }
+*
 public static String function(String a, String b, int action) throws Exception
 {
 if (action == 0)
