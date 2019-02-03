@@ -19,7 +19,6 @@ System.out.println("result is :"+function("6", "4", 0));
 
 public static int function(int a, int b, int action) throws Exception
 {
-
 if (action == 0)
 return a+b;
 else if (action == 1)
