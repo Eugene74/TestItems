@@ -15,7 +15,6 @@ public class Main {
         map.put("2java.lang.Integerjava.lang.Integer", fi2);
         map.put("3java.lang.Integerjava.lang.Integer", fi3);
     }
-
     interface Function <T>  {
         T getResult();
         void setAB(T a, T b);
@@ -32,14 +31,12 @@ public class Main {
             this.b = (T) b;
         }
     }
-
     static class StringFunction0 extends FunctionBaseClass implements Function {
         @Override
         public String getResult( ) {
             return  (String)a+b;
         }
     }
-
     static class IntegerFunction0  extends  FunctionBaseClass implements Function  {
         @Override
         public Integer getResult( ) {
@@ -65,8 +62,6 @@ public class Main {
         }
     }
 
-
-
     public static   void main(String[] args) throws Exception {
         String result = "result is :";
         System.out.println(result + function(6, 4, 0));
@@ -87,7 +82,6 @@ public class Main {
         }
         return f.getResult();
     }
-
     private static  <T>String getName(T s) {
         return  s.getClass().getName();
     }
