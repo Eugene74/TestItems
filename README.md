@@ -16,6 +16,7 @@ System.out.println("result is :"+function(6,4,2));
 System.out.println("result is :"+function(6,4,3));
 System.out.println("result is :"+function("6", "4", 0));
 }
+***********************************************
 public static int function(int a, int b, int action) throws Exception
 {
 if (action == 0)
